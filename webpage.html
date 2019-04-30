@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Web page server</title>
+  </head>
+  <body style=" background-color: pink">
+    <h3> WELCOME TO OUR GENOME WEB PAGE </h3>
+
+
+    <form action="/listSpecies" method="get">
+        <p style="color:#66025f";>LIST WITH THE NAMES OF ALL SPECIES</p>
+      <input type="submit" value="SEND">
+    </form>
+
+
+
+    <form action="/listSpecies" method="get">
+        YOU CAN INCLUDE A LIMIT NUMBER<br>
+      <input type="text" size="3" name="limit">
+      <input type="submit" value="SEND">
+    </form>
+
+
+
+  <form action="/karyotype" method="get">
+      ENTER A SPECIE NAME<br>
+      <input type="text" size="3" name="specie">
+      <input type="submit" value="SEND">
+    </form>
+
+
+
+  <form action="/chromosomeLength" method="get">
+      CHROMOSOME LENGTH<br>
+      <input type="text" size="3" name="specie">
+      <input type="text" size="3" name="chromo">
+      <input type="submit" value="SEND">
+    </form>
+
+
+
+
+  </body>
+</html>
+

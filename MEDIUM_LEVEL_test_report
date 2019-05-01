@@ -1,0 +1,230 @@
+This file is a test report for the MEDIUM LEVEL of the FINAL practice, different endpoints are going to be proved in order to see Final practice server work:
+
+- ENDPOINT 1 : http://localhost:8000/geneSeq?gene=FRAT1
+
+                                              <html>
+                                              <body>
+                                              <ul>
+                                              <h3 align=center><p style="color:#fed570";><u>OPTION 4: SEQUENCE OF A HUMAN GENE</u></p><li>ATTCCGGCTCCCGCGGCTGCAGGCGCGCGGCTAGAGTGCCTGGCGGGCTCCGGCTTCCGCGTCCGCCCCGGCCCCGGTCCAGACTTAGTCTTCAGCTCCGCGCCCGCTCCGCCGCGGCCCACCGCGCCCGCCGGCAGCCGAGCCCCCAGCGACGCCCGCACAGCTCCGGGTGCCCAGACAGGGGGCCATGCCGTGCCGGAGGGAGGAGGAAGAGGAAGCCGGCGAGGAGGCGGAGGGGGAGGAAGAGGAGGAGGACAGCTTCCTCCTACTGCAGCAGTCAGTGGCGCTGGGCAGCTCGGGCGAGGTGGACCGGCTGGTGGCCCAGATCGGCGAGACGCTGCAGCTGGACGCGGCGCAGCACAGCCCGGCCTCGCCGTGCGGGCCCCCGGGGGCGCCGCTGCGGGCCCCGGGGCCCCTGGCTGCGGCGGTGCCGGCGGACAAGGCCAGGTCCCCGGCGGTGCCGCTGCTGCTGCCGCCCGCGTTGGCGGAGACTGTGGGCCCGGCGCCCCCTGGGGTCCTGCGCTGCGCCCTGGGGGACCGCGGCCGCGTGCGGGGCCGCGCTGCGCCCTACTGCGTGGCCGAGCTCGCCACAGGCCCCAGCGCGCTGTCCCCACTGCCCCCTCAGGCCGACCTTGATGGGCCTCCGGGAGCTGGCAAGCAGGGCATCCCGCAGCCGCTGTCGGGTCCGTGCCGGCGAGGATGGCTCCGGGGCGCCGCCGCCTCCCGCCGCCTGCAGCAGCGACGCGGGTCCCAACCAGAAACCCGCACAGGCGACGACGACCCGCACCGGCTTCTGCAGCAGCTAGTGCTCTCTGGAAACCTCATCAAGGAGGCCGTGCGAAGGCTTCATTCGCGACGGCTGCAGTTACGTGCAAAGCTTCCCCAACGCCCGCTCCTGGGACCTCTGTCGGCCCCGGTGCATGAACCCCCTTCGCCTCGCAGCCCTCGCGCGGCCTGCAGTGACCCTGGCGCCTCCGGGAGGGCGCAGCTCAGAACTGGCGACGGCGTTCTTGTGCCTGGCAGCTAACACGCCCGGGGTGGCCACAGCGCCAGCCTCAGACTGGAGGGCAAGGGGTTCCCTTGAGGGCTGCAGTTCTACTCAGGCTGGTGGAGAACTCTGGCTTTTGGAAGCGAGAGTAAAAAGCTAATGACGAGGAACCGAAAAATCGCGAGTGTTTCGCGGGTAACTGGGGTTGAGGGCCAAAATATTTGGAATGAAGGACTTTGGCCCTATTTAAGGCAGATTTTACAGAGCGCACCTCAAACGTACAAGTCAGTAGGACTCCTTATTTGGCGTGACCCGACCTGGCCGCGGAGCCTGCATTTCCTCGCAGCCTCTCAGTGCCCTCCAGCCCCGCGACCATGTGGCCACAATCCACGCTTCTCCGGATCGCGGTGCGCCGGAACCACGGAGGATGATGCCAGTTACTTGCTTTACCTTTTCAGGGCTGGCTCCTGATCCACTTTGGGGGAGGAGAACATGAGTAGATAATTTCAGGGTGCAGCCCAATCTGCCAGACTTAAAAAAACCATCTTGTGTCTTTGGAGGTGCTGCTTAATACCAAACATGCGGTGCCATGAAGGGACCCTTTGGGGGTTGAATAGGAGTTAACCCCTGCGCTCTCTTTGCAACTGTCTCTCTTCTCAGAGTGGTGGGGGAAGGCTGTACGACACGGGTGGGGAAAGGAGGTGGGGGCGGGGAGTATTGAATGGTGGTGGAAGGGTAGAGAGGCGCGGAGTGAACCCCACGCCCTGTCTAAAGTGTATTTTCAGAGCCGGCCCGCCTCTCCTCGGTTCAAGGTCACTGTTTCCTGGGCACGCACTGGGTTGCGGGACAGAGTAGCCAGGTTCTGCCGGTGCTCGGAGAAGAGCGCAGTGTTTTGCAAGTGCTGGAGTCTCCTGAGGACACGCGCGTCGCCGCCACCGCGGGTGTGGGAAAGCGCGGACGTGCTGGGCGGCTGTGCTTCGGTAGGCGACCACCGCCCCTGGCCGCGCTCCGGGCTTTCACGGAAACTCCCGAGACCGGGCCCTGGGTTCCTCCTCTCCTACTCGGCTCTGCAGTCCTACTCAAGCGGGTGGCTCTGGGATCCTGGGGGCCTGGGTTGGGGGCTAGGGAGACGCCATGTGATGGACACTCCAGGGACACACAGCCTAGCACAGCAGCTTATAATGGGCTCTCCGGGGCCATTTGCAATAACAGCTGCAATTCCCTGGATAGACGAGTTGATTTCCTCCCTCTGCCCCTCCCCCAGCCATGCCAGCTGGCCTTTGTAAGTGCAGGAAACCGAGTAGAAAATGTGACCCTCCAAATGGAGAAGCTGCAGGCTTTGCCATTGTGAACCATGGTGAAGTGCTTGGAACATACTGTTCACTCACTCTAAAGGCGCTGAGACTGTGCTGTTGTTCTCGTTTTTATAGTCAATGGCTTGTTCATCATCCAGATGTGGCTACTGACATATCTACACTTCGCACCGGAGTGTCTGGAATTGTGGCTATCCTGATTATAGGATTTTAACTTAACTGAAATGCCTGCTTTGAATAAATGTGTTGGGTTTTTTGTTTGGTTTTATTTTATACTTGCCATCAGTGAAAAAGATGTACAGAACACATTTCTCTGATCTCCATAAACATGAAAACACTTGAAATCTC</li<br></ul>
+                                              </body>
+                                              </html>
+
+
+- ENDPOINT 2 : http://localhost:8000/geneInfo?gene=FRAT1
+
+
+                                              <html>
+                                              <body>
+                                              <ul>
+                                              <h3 align=center><p style="color:#70c2fe";><u>OPTION 5: INFORMATION ABOUT A HUMAN GENE</u></p> The end is: 97321915<br> The start is: 97319267<br> The lenght is: 2648<br> The ID is: ENSG00000165879<br>The chromosome is: GRCh38<br></ul>
+                                              </body>
+                                              </html>
+
+
+- ENDPOINT 3 : http://localhost:8000/geneCal?gene=FRAT1
+
+
+                                              <html>
+                                              <body>
+                                              <ul>
+                                              <h3 align=center><p style="color:#d970fe";><u>OPTION 6: CALCULATIONS ON A HUMAN GENE</u></p> Total length is: 2649<br> The percentage of A is: 18.0<br> The percentage of T is: 19.7<br> The percentage of G is: 32.0<br>The percentage of C is: 30.2<br></ul>
+                                              </body>
+                                              </html>
+
+
+- ENDPOINT 4 : http://localhost:8000/geneList?chromo=1&start=0&end=30000
+
+                                                      <html>
+                                                      <body>
+                                                      <ol>
+                                                      <h3 align=center><p style="color:#70feb9";><u>OPTION 7: GENES LOCATED ON A CHROMOSOME FROM START TO END POSITIONS</u></p><li>GENE DDX11L1;   START: 11869   END: 14409</li><br><li>GENE WASH7P;   START: 14404   END: 29570</li><br><li>GENE MIR6859-1;   START: 17369   END: 17436</li><br><li>GENE MIR1302-2HG;   START: 29554   END: 31109</li><br></ol>
+                                                                  </body>
+                                                                  </html>
+
+
+- ENDPOINT 5 : http://localhost:8000/geneSeq?gene=frrrrrrat1
+
+<!DOCTYPE html>
+    <html lang="en" dir="ltr">
+      <head>
+        <meta charset="utf-8">
+        <title>Error server</title>
+      </head>
+      <body style="background-color: red;">
+        <h1>ERROR 404 NOT FOUND</h1>
+        <h3>Sorry, something unexpected has happened.
+            Clicking on the link below you can return our home page:
+        </h3>
+       <p><a href="http://127.0.0.1:8000/">MAIN PAGE</a></p>
+      </body>
+    </html>
+
+
+
+- ENDPOINT 6 : http://localhost:8000/geneSeq?gene=87
+
+<!DOCTYPE html>
+    <html lang="en" dir="ltr">
+      <head>
+        <meta charset="utf-8">
+        <title>Error server</title>
+      </head>
+      <body style="background-color: red;">
+        <h1>ERROR 404 NOT FOUND</h1>
+        <h3>Sorry, something unexpected has happened.
+            Clicking on the link below you can return our home page:
+        </h3>
+       <p><a href="http://127.0.0.1:8000/">MAIN PAGE</a></p>
+      </body>
+    </html>
+
+
+
+- ENDPOINT 7 : http://localhost:8000/geneSeq?gene=
+
+<!DOCTYPE html>
+    <html lang="en" dir="ltr">
+      <head>
+        <meta charset="utf-8">
+        <title>Error server</title>
+      </head>
+      <body style="background-color: red;">
+        <h1>ERROR 404 NOT FOUND</h1>
+        <h3>Sorry, something unexpected has happened.
+            Clicking on the link below you can return our home page:
+        </h3>
+       <p><a href="http://127.0.0.1:8000/">MAIN PAGE</a></p>
+      </body>
+    </html>
+
+
+
+- ENDPOINT 8 : http://localhost:8000/geneInfo?gene=LKS0
+
+<!DOCTYPE html>
+    <html lang="en" dir="ltr">
+      <head>
+        <meta charset="utf-8">
+        <title>Error server</title>
+      </head>
+      <body style="background-color: red;">
+        <h1>ERROR 404 NOT FOUND</h1>
+        <h3>Sorry, something unexpected has happened.
+            Clicking on the link below you can return our home page:
+        </h3>
+       <p><a href="http://127.0.0.1:8000/">MAIN PAGE</a></p>
+      </body>
+    </html>
+
+
+
+- ENDPOINT 9 : http://localhost:8000/geneInfo?gene=
+
+<!DOCTYPE html>
+    <html lang="en" dir="ltr">
+      <head>
+        <meta charset="utf-8">
+        <title>Error server</title>
+      </head>
+      <body style="background-color: red;">
+        <h1>ERROR 404 NOT FOUND</h1>
+        <h3>Sorry, something unexpected has happened.
+            Clicking on the link below you can return our home page:
+        </h3>
+       <p><a href="http://127.0.0.1:8000/">MAIN PAGE</a></p>
+      </body>
+    </html>
+
+
+
+- ENDPOINT 10 : http://localhost:8000/geneInfo
+
+<!DOCTYPE html>
+    <html lang="en" dir="ltr">
+      <head>
+        <meta charset="utf-8">
+        <title>Error server</title>
+      </head>
+      <body style="background-color: red;">
+        <h1>ERROR 404 NOT FOUND</h1>
+        <h3>Sorry, something unexpected has happened.
+            Clicking on the link below you can return our home page:
+        </h3>
+       <p><a href="http://127.0.0.1:8000/">MAIN PAGE</a></p>
+      </body>
+    </html>
+
+
+
+- ENDPOINT 11 : http://localhost:8000/geneCal?gene
+
+<!DOCTYPE html>
+    <html lang="en" dir="ltr">
+      <head>
+        <meta charset="utf-8">
+        <title>Error server</title>
+      </head>
+      <body style="background-color: red;">
+        <h1>ERROR 404 NOT FOUND</h1>
+        <h3>Sorry, something unexpected has happened.
+            Clicking on the link below you can return our home page:
+        </h3>
+       <p><a href="http://127.0.0.1:8000/">MAIN PAGE</a></p>
+      </body>
+    </html>
+
+
+
+- ENDPOINT 12 : http://localhost:8000/geneList?chromo=MOUSE&start=D&end=1
+
+<!DOCTYPE html>
+    <html lang="en" dir="ltr">
+      <head>
+        <meta charset="utf-8">
+        <title>Error server</title>
+      </head>
+      <body style="background-color: red;">
+        <h1>ERROR 404 NOT FOUND</h1>
+        <h3>Sorry, something unexpected has happened.
+            Clicking on the link below you can return our home page:
+        </h3>
+       <p><a href="http://127.0.0.1:8000/">MAIN PAGE</a></p>
+      </body>
+    </html>
+
+
+- ENDPOINT 13 : http://localhost:8000/geneList?chromo=&start=2&end=
+
+<!DOCTYPE html>
+    <html lang="en" dir="ltr">
+      <head>
+        <meta charset="utf-8">
+        <title>Error server</title>
+      </head>
+      <body style="background-color: red;">
+        <h1>ERROR 404 NOT FOUND</h1>
+        <h3>Sorry, something unexpected has happened.
+            Clicking on the link below you can return our home page:
+        </h3>
+       <p><a href="http://127.0.0.1:8000/">MAIN PAGE</a></p>
+      </body>
+    </html>
+
+
+
+- ENDPOINT 14 : http://localhost:8000/geneList?chromo
+
+<!DOCTYPE html>
+    <html lang="en" dir="ltr">
+      <head>
+        <meta charset="utf-8">
+        <title>Error server</title>
+      </head>
+      <body style="background-color: red;">
+        <h1>ERROR 404 NOT FOUND</h1>
+        <h3>Sorry, something unexpected has happened.
+            Clicking on the link below you can return our home page:
+        </h3>
+       <p><a href="http://127.0.0.1:8000/">MAIN PAGE</a></p>
+      </body>
+    </html>

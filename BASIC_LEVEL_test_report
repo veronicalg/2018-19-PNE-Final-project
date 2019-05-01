@@ -1,0 +1,174 @@
+This file is a test report for the BASIC LEVEL of the FINAL practice, different endpoints are going to be proved in order to see Final practice server work:
+
+-ENDPOINT 1: http://localhost:8000/listSpecies?limit=10
+
+                <html>
+                <body>
+                <ol>
+                <h3 align=center><p style="color:#fe70f4";><u>OPTION 1: SPECIES LIST</u></p><li>Flycatcher</li<br><li>American beaver</li<br><li>C.intestinalis</li<br><li>Central bearded dragon</li<br><li>Golden-collared manakin</li<br><li>Steppe mouse</li<br><li>White-throated sparrow</li<br><li>Kangaroo rat</li<br><li>Gibbon</li<br><li>Mouse FVB/NJ</li<br></ol>
+                </body>
+                </html>
+
+
+- ENDPOINT 2 : http://localhost:8000/listSpecies
+
+                <html>
+                <body>
+                <ol>
+                <h3 align=center><p style="color:#fe70f4";><u>OPTION 1: SPECIES LIST</u></p><li>Flycatcher</li<br><li>American beaver</li<br><li>C.intestinalis</li<br><li>Central bearded dragon</li<br><li>Golden-collared manakin</li<br><li>Steppe mouse</li<br><li>White-throated sparrow</li<br><li>Kangaroo rat</li<br><li>Gibbon</li<br><li>Mouse FVB/NJ</li<br><li>Mummichog</li<br><li>Algerian mouse</li<br><li>Guppy</li<br><li>Clown anemonefish</li<br><li>Mongolian gerbil</li<br><li>Saccharomyces cerevisiae</li<br><li>Paramormyrops kingsleyae</li<br><li>Lesser Egyptian jerboa</li<br><li>Mouse C3H/HeJ</li<br><li>Orange clownfish</li<br><li>Hedgehog</li<br><li>Koala</li<br><li>Spiny chromis</li<br><li>Blue-crowned manakin</li<br><li>American mink</li<br><li>Guinea Pig</li<br><li>Horse</li<br><li>Armadillo</li<br><li>Burton's mouthbrooder</li<br><li>Crab-eating macaque</li<br><li>Japanese quail</li<br><li>Budgerigar</li<br><li>Naked mole-rat male</li<br><li>Ma's night monkey</li<br><li>Polar bear</li<br><li>Greater bamboo lemur</li<br><li>Sailfin molly</li<br><li>Mangrove rivulus</li<br><li>Great spotted kiwi</li<br><li>Argentine black and white tegu</li<br><li>Coquerel's sifaka</li<br><li>Donkey</li<br><li>Brazilian guinea pig</li<br><li>Duck</li<br><li>Zebrafish</li<br><li>Northern American deer mouse</li<br><li>Common canary</li<br><li>Golden Hamster</li<br><li>Channel catfish</li<br><li>Western mosquitofish</li<br><li>Swamp eel</li<br><li>Bengalese finch</li<br><li>Cat</li<br><li>Platypus</li<br><li>Little spotted kiwi</li<br><li>Tuatara</li<br><li>Shortfin molly</li<br><li>Drosophila melanogaster</li<br><li>Tasmanian devil</li<br><li>Zebra mbuna</li<br><li>Mouse WSB/EiJ</li<br><li>Ballan wrasse</li<br><li>Great Tit</li<br><li>Helmeted guineafowl</li<br><li>Lamprey</li<br><li>Spotted gar</li<br><li>Monterrey platyfish</li<br><li>Upper Galilee mountains blind mole rat</li<br><li>Pika</li<br><li>Sloth</li<br><li>Chimpanzee</li<br><li>Bolivian squirrel monkey</li<br><li>Ferret</li<br><li>Agassiz's desert tortoise</li<br><li>Arctic ground squirrel</li<br><li>Mouse PWK/PhJ</li<br><li>Japanese medaka HdrR</li<br><li>Megabat</li<br><li>Abingdon island giant tortoise</li<br><li>Black snub-nosed monkey</li<br><li>Mexican tetra</li<br><li>Lyretail cichlid</li<br><li>Mouse CAST/EiJ</li<br><li>Lesser hedgehog tenrec</li<br><li>Zebra Finch</li<br><li>Elephant</li<br><li>Capuchin</li<br><li>Anole lizard</li<br><li>Panda</li<br><li>Daurian ground squirrel</li<br><li>Pig</li<br><li>Mouse</li<br><li>Mouse NZO/HlLtJ</li<br><li>Spoon-billed sandpiper</li<br><li>Wallaby</li<br><li>Tiger tail seahorse</li<br><li>Cow</li<br><li>American bison</li<br><li>Mouse A/J</li<br><li>Japanese medaka HSOK</li<br><li>Bonobo</li<br><li>Gorilla</li<br><li>Emu</li<br><li>Okarito brown kiwi</li<br><li>Dog</li<br><li>Chilean tinamou</li<br><li>Sheepshead minnow</li<br><li>Chinese hamster PICR</li<br><li>Alpaca</li<br><li>Blue tit</li<br><li>Zig-zag eel</li<br><li>Pig-tailed macaque</li<br><li>Ryukyu mouse</li<br><li>Angola colobus</li<br><li>Sheep</li<br><li>Drill</li<br><li>Eastern happy</li<br><li>Japanese medaka HNI</li<br><li>Cod</li<br><li>Hagfish</li<br><li>Tarsier</li<br><li>Indian medaka</li<br><li>Sooty mangabey</li<br><li>Stickleback</li<br><li>Amazon molly</li<br><li>Mouse DBA/2J</li<br><li>Mouse C57BL/6NJ</li<br><li>Dark-eyed junco</li<br><li>Chinese hamster CHOK1GS</li<br><li>Xenopus</li<br><li>Dingo</li<br><li>Dolphin</li<br><li>Ugandan red Colobus</li<br><li>Red-bellied piranha</li<br><li>Mouse Lemur</li<br><li>Midas cichlid</li<br><li>Caenorhabditis elegans</li<br><li>Tetraodon</li<br><li>Makobe Island cichlid</li<br><li>Platyfish</li<br><li>Shrew mouse</li<br><li>Chinese hamster CriGri</li<br><li>Long-tailed chinchilla</li<br><li>Hyrax</li<br><li>Mouse BALB/cJ</li<br><li>Naked mole-rat female</li<br><li>Ruff</li<br><li>Vervet-AGM</li<br><li>Goat</li<br><li>Bushbaby</li<br><li>Coelacanth</li<br><li>Pink-footed goose</li<br><li>Macaque</li<br><li>Marmoset</li<br><li>Turbot</li<br><li>Periophthalmus magnuspinnatus</li<br><li>Chinese softshell turtle</li<br><li>Leopard</li<br><li>Degu</li<br><li>Climbing perch</li<br><li>Tongue sole</li<br><li>Mainland tiger snake</li<br><li>Mouse CBA/J</li<br><li>Tilapia</li<br><li>Gelada</li<br><li>Prairie vole</li<br><li>Fugu</li<br><li>Australian saltwater crocodile</li<br><li>Rabbit</li<br><li>Wild yak</li<br><li>Red fox</li<br><li>Bicolor damselfish</li<br><li>Shrew</li<br><li>Mouse AKR/J</li<br><li>Greater amberjack</li<br><li>Chicken</li<br><li>Mouse NOD/ShiLtJ</li<br><li>Painted turtle</li<br><li>Olive baboon</li<br><li>Alpine marmot</li<br><li>Orangutan</li<br><li>Asian bonytongue</li<br><li>Squirrel</li<br><li>C.savignyi</li<br><li>Golden snub-nosed monkey</li<br><li>Northern pike</li<br><li>Turkey</li<br><li>Mouse LP/J</li<br><li>Damara mole rat</li<br><li>Tiger</li<br><li>Yellowtail amberjack</li<br><li>Ocean sunfish</li<br><li>American black bear</li<br><li>Tree Shrew</li<br><li>Opossum</li<br><li>Rat</li<br><li>Mouse 129S1/SvImJ</li<br><li>Human</li<br><li>Microbat</li<br></ol>
+                </body>
+                </html>
+
+
+- ENDPOINT 3 : http://localhost:8000/karyotype?specie=MOUSE
+
+                                   <html>
+                                   <body>
+                                   <ul>
+                                   <h3 align=center><p style="color:#f8fe70";><u>OPTION 2: SPECIE KARYOTYPE</u></p><li>1</li<br><li>2</li<br><li>3</li<br><li>4</li<br><li>5</li<br><li>6</li<br><li>7</li<br><li>8</li<br><li>9</li<br><li>10</li<br><li>11</li<br><li>12</li<br><li>13</li<br><li>14</li<br><li>15</li<br><li>16</li<br><li>17</li<br><li>18</li<br><li>19</li<br><li>X</li<br><li>Y</li<br><li>MT</li<br></ul>
+                                   </body>
+                                   </html>
+
+
+
+- ENDPOINT 4 :http://localhost:8000/chromosomeLength?specie=mouse&chromo=18
+
+                                              <html>
+                                              <body>
+                                              <ul>
+                                              <h3 align=center><p style="color:#adfe70";><u>OPTION 3: CHROMOSME LENGTH</u></p><li>The length of the chromosome  18,  specie  mouse,  is: 90702639</li></ul>
+                                              </body>
+                                              </html>
+
+
+
+- ENDPOINT 5 : http://localhost:8000/karyotype?specie=MOUSESSSS
+
+<!DOCTYPE html>
+    <html lang="en" dir="ltr">
+      <head>
+        <meta charset="utf-8">
+        <title>Error server</title>
+      </head>
+      <body style="background-color: red;">
+        <h1>ERROR 404 NOT FOUND</h1>
+        <h3>Sorry, something unexpected has happened.
+            Clicking on the link below you can return our home page:
+        </h3>
+       <p><a href="http://127.0.0.1:8000/">MAIN PAGE</a></p>
+      </body>
+    </html>
+
+
+
+- ENDPOINT 6: http://localhost:8000/chromosomeLength?specie=18&chromo=mouse
+
+<!DOCTYPE html>
+    <html lang="en" dir="ltr">
+      <head>
+        <meta charset="utf-8">
+        <title>Error server</title>
+      </head>
+      <body style="background-color: red;">
+        <h1>ERROR 404 NOT FOUND</h1>
+        <h3>Sorry, something unexpected has happened.
+            Clicking on the link below you can return our home page:
+        </h3>
+       <p><a href="http://127.0.0.1:8000/">MAIN PAGE</a></p>
+      </body>
+    </html>
+
+
+
+- ENDPOINT 7 : http://localhost:8000/chromosomeLength?specie=&chromo=
+
+<!DOCTYPE html>
+    <html lang="en" dir="ltr">
+      <head>
+        <meta charset="utf-8">
+        <title>Error server</title>
+      </head>
+      <body style="background-color: red;">
+        <h1>ERROR 404 NOT FOUND</h1>
+        <h3>Sorry, something unexpected has happened.
+            Clicking on the link below you can return our home page:
+        </h3>
+       <p><a href="http://127.0.0.1:8000/">MAIN PAGE</a></p>
+      </body>
+    </html>
+
+
+
+- ENDPOINT 8 : http://localhost:8000/chromosomeLength
+
+<!DOCTYPE html>
+    <html lang="en" dir="ltr">
+      <head>
+        <meta charset="utf-8">
+        <title>Error server</title>
+      </head>
+      <body style="background-color: red;">
+        <h1>ERROR 404 NOT FOUND</h1>
+        <h3>Sorry, something unexpected has happened.
+            Clicking on the link below you can return our home page:
+        </h3>
+       <p><a href="http://127.0.0.1:8000/">MAIN PAGE</a></p>
+      </body>
+    </html>
+
+
+
+- ENDPOINT 9 : http://localhost:8000/chromosomeLength?specie=44&chromo=45
+
+<!DOCTYPE html>
+    <html lang="en" dir="ltr">
+      <head>
+        <meta charset="utf-8">
+        <title>Error server</title>
+      </head>
+      <body style="background-color: red;">
+        <h1>ERROR 404 NOT FOUND</h1>
+        <h3>Sorry, something unexpected has happened.
+            Clicking on the link below you can return our home page:
+        </h3>
+       <p><a href="http://127.0.0.1:8000/">MAIN PAGE</a></p>
+      </body>
+    </html>
+
+
+
+- ENDPOINT 10 : http://localhost:8000/karyotype?specie=7
+
+<!DOCTYPE html>
+    <html lang="en" dir="ltr">
+      <head>
+        <meta charset="utf-8">
+        <title>Error server</title>
+      </head>
+      <body style="background-color: red;">
+        <h1>ERROR 404 NOT FOUND</h1>
+        <h3>Sorry, something unexpected has happened.
+            Clicking on the link below you can return our home page:
+        </h3>
+       <p><a href="http://127.0.0.1:8000/">MAIN PAGE</a></p>
+      </body>
+    </html>
+
+
+
+- ENDPOINT 11 : http://localhost:8000/karyotype?specie=
+
+<!DOCTYPE html>
+    <html lang="en" dir="ltr">
+      <head>
+        <meta charset="utf-8">
+        <title>Error server</title>
+      </head>
+      <body style="background-color: red;">
+        <h1>ERROR 404 NOT FOUND</h1>
+        <h3>Sorry, something unexpected has happened.
+            Clicking on the link below you can return our home page:
+        </h3>
+       <p><a href="http://127.0.0.1:8000/">MAIN PAGE</a></p>
+      </body>
+    </html>

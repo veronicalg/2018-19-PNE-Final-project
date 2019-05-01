@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+  <head>
+    <meta charset="utf-8">
+    <title>Web page server</title>
+  </head>
+  <body style=" background-color: black">
+    <h1 align=center><p style="color: white;"> WELCOME TO OUR GENOME WEB PAGE</p></h1>
+    <h4 align=center><p style="color: white;">[Below you can observe 7 different options
+        in order to get the information you want. Please, read carefully every instruction before choosing one of them.
+        Note: selecting the small squared button will returned a JSON format data file]
+
+    </p></h4>
+
+
+<br>
+
+    <form action="/listSpecies" method="get">
+        <h3 align=center><p style="color:#fe70f4";><u>OPTION 1: SPECIES LIST</u></p> <p style="color:white"> Clicking in "GET LIST", you'll get a
+            list with all the species available in our database. If you want, a limit number can be established:</p></h3>
+      <h3 align=center><input type="text" size="3" name="limit">
+          <h3 align=center><input style="background-color: #fe7a70" type="checkbox" name="json" value="1">
+        <input style="background-color: #fe70f4" type="submit" value="  GET LIST  "></h3>
+    </form>
+
+<br>
+
+  <form action="/karyotype" method="get">
+      <h3 align=center><p style="color:#f8fe70";><u>OPTION 2: SPECIE KARYOTYPE</u></p> <p style="color:white"> Enter a specie name in order to get the name of
+          all of its chromosomes:</p>
+          <br>
+      <input type="text" size="6" name="specie">
+          <h3 align=center><input style="background-color: #fe7a70" type="checkbox" name="json" value="1">
+      <input style="background-color: #f8fe70" type="submit"  value="  SPECIE NAME  "></h3>
+    </form>
+
+<br>
+
+  <form action="/chromosomeLength" method="get">
+      <h3 align=center><p style="color:#adfe70";><u>OPTION 3: CHROMOSME LENGTH</u></p> <p style="color:white"> Enter a name specie and a chromosome in order to get
+          the length of its chromosome: <br>
+          (Warning: it is important to enter in the first one the name and in the second one the chromosome)</p>
+      <br>
+      <input type="text" size="3" name="specie">
+      <input type="text" size="3" name="chromo">
+          <h3 align=center><input style="background-color: #fe7a70" type="checkbox" name="json" value="1">
+      <input style="background-color: #adfe70" type="submit" value="  SPECIE NAME & CHROMOSOME  "></h3>
+    </form>
+    <br>
+
+  <form action="/geneSeq" method="get">
+      <h3 align=center><p style="color:#fed570";><u>OPTION 4: SEQUENCE OF A HUMAN GENE</u></p> <p style="color:white"> Enter a gene in order to return
+          the sequence of a given gene: <br>
+          </p>
+      <br>
+      <input type="text" size="3" name="gene">
+          <h3 align=center><input style="background-color: #fe7a70" type="checkbox" name="json" value="1">
+      <input style="background-color: #fed570" type="submit" value="  GET THE SEQUENCE  "></h3>
+    </form>
+
+    <br>
+  <form action="/geneInfo" method="get">
+      <h3 align=center><p style="color:#70c2fe";><u>OPTION 5: INFORMATION ABOUT A HUMAN GENE</u></p> <p style="color:white"> Enter a gene in order to return
+          information about the human gene: start, end, length, id and chromosome. <br>
+          </p>
+      <br>
+      <input type="text" size="3" name="gene">
+          <h3 align=center><input style="background-color: #fe7a70" type="checkbox" name="json" value="1">
+      <input style="background-color: #70c2fe" type="submit" value="  GET INFO "></h3>
+    </form>
+
+
+<br>
+  <form action="/geneCal" method="get">
+      <h3 align=center><p style="color:#d970fe";><u>OPTION 6: CALCULATIONS ON A HUMAN GENE</u></p> <p style="color:white"> Enter a gene in order to
+          perform some calculations: <br>
+          </p>
+      <br>
+      <input type="text" size="3" name="gene">
+          <h3 align=center><input style="background-color: #fe7a70" type="checkbox" name="json" value="1">
+      <input style="background-color: #d970fe" type="submit" value="  GET CALCULATIONS "></h3>
+    </form>
+
+  <br>
+  <form action="/geneList" method="get">
+      <h3 align=center><p style="color:#70feb9";><u>OPTION 7: GENES LOCATED ON A CHROMOSOME FROM START TO END POSITIONS</u></p> <p style="color:white"> Enter a chromosome name in order to
+          return the genes on it, from the start to the end positions: <br>
+          </p>
+      <br>
+      <input type="text" size="3" name="chromo">
+      <input type="text" size="3" name="start">
+      <input type="text" size="3" name="end">
+          <h3 align=center><input style="background-color: #fe7a70" type="checkbox" name="json" value="1">
+      <input style="background-color: #70feb9" type="submit" value="  GET CALCULATIONS "></h3>
+    </form>
+
+
+
+
+  </body>
+</html>

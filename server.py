@@ -1,4 +1,4 @@
-
+# Server for final practice. (Basic, medium and advanced level)
 import http.server
 import socketserver
 import termcolor
